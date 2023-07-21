@@ -1,31 +1,174 @@
 .App {
   text-align: center;
+  color: #65655E; /* Apply the color to text */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #7D80DA; /* Apply the color to header background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #C6AFB1; /* Apply the color to header text */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #B0A3D4; /* Apply the color to link */
+}
+
+.calendar-container {
+  background-color: #CEBACF; /* Apply the color to calendar container */
+}
+
+.container {
+  
+  background-color: #B0A3D4; /* Apply the color to main container */
+}
+
+.header-container {
+  border: 2px solid #7D80DA; /* Add border around the title */
+  padding: 20px;
+  text-align: center;
+}
+
+.welcome-title {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #C6AFB1; /* Apply the color to primary button */
+  border-color: #C6AFB1;
+}
+
+.btn-primary:hover {
+  background-color: #B0A3D4; /* Apply the color to primary button on hover */
+  border-color: #B0A3D4;
+}
+
+.rbc-month-row, .rbc-month-view .rbc-row-bg {
+  height: 6em !important;
+}
+
+.button-spacing {
+  margin-right: 20px;
+}
+
+/* Add this to your CSS stylesheet */
+.panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-panel {
+  background-color: #CEBACF;
+}
+
+.ai-response-panel {
+  background-color: #B0A3D4;
+}
+
+.back-btn {
+  background: #C6AFB1;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.back-btn:hover {
+  background: #65655E;
+}
+
+/* Styling for the "Back to Home" button */
+.back-to-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.back-btn-icon {
+  margin-right: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 400px;
+  margin: auto;
+  background: #B0A3D4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #65655E;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #65655E;
+}
+
+form div {
+  color: red;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background: #7D80DA;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+  background: #65655E;
+}
+
+.back-btn {
+  background: #C6AFB1;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+  background: #65655E;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +178,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
