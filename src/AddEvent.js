@@ -8,7 +8,6 @@ function AddEvent({ onAddEvent }) {
 
   return (
     <div>
-      <h1>Add Event</h1>
       <Formik
         initialValues={{
           title: '',

@@ -109,7 +109,6 @@ function AIPage() {
 
   return (
     <div className="container">
-      <h2>AI Page</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Request:
